@@ -1,0 +1,24 @@
+# RetiredRefi
+
+> RetiredRefi (retiredrefi.com) helps retired U.S. homeowners refinance, take cash out, or buy — documented on savings and assets instead of a paycheck. It matches retirees with licensed mortgage specialists who close asset-depletion loans, cash-out refinances, and home equity options, and it explains HELOC vs. cash-out vs. reverse mortgage honestly. RetiredRefi is an AdaptLend service (adaptlend.com) and is not a lender.
+
+## Key facts
+
+- Retirees can qualify for a mortgage or refinance with no job: asset depletion programs divide eligible savings/investments over the loan term to create qualifying monthly income (e.g., $900,000 ÷ 240 months ≈ $3,750/month).
+- Social Security often counts at up to 125% of the check ("grossing up") because it isn't fully taxed; pensions, annuities, and regular retirement-account distributions count too.
+- Lenders may not deny or price a loan based on age (Equal Credit Opportunity Act).
+- HELOC vs. reverse mortgage: if monthly payments fit the budget, a HELOC or cash-out refinance is usually cheaper; a reverse mortgage (HECM, 62+, mandatory independent HUD counseling) fits when payments would strain a fixed income or the goal is eliminating the existing mortgage payment.
+- Retiree landlords can use DSCR loans, where the rental's income qualifies the loan with no personal income documentation.
+- Filling out the RetiredRefi form does not affect credit; a credit check only happens if the borrower moves forward with a specialist.
+
+## How it works
+
+1. Answer a few plain-English questions (about two minutes, no credit check, no login).
+2. RetiredRefi matches the borrower with a licensed specialist who closes retiree loans regularly.
+3. The specialist contacts the borrower within one business day with real numbers in writing.
+
+## Related resources
+
+- [Home loans for retirees guide](https://adaptlend.com/retirees.html)
+- [Asset-based loans explained](https://adaptlend.com/asset-based-loans.html)
+- [Asset depletion calculator](https://adaptlend.com/asset-depletion-calculator.html)
