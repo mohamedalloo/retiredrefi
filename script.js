@@ -331,13 +331,7 @@ const SITE = {
       "meta": "Senior equity review \u00b7 Sun City, AZ"
     }
   ],
-  "confetti": [
-    "#b4682f",
-    "#d99e6f",
-    "#f6ead9",
-    "#26463a",
-    "#96521f"
-  ]
+  "confetti": ["#10b981", "#34d399", "#f5b942", "#ffffff", "#1a2440"]
 };
 
 const ICONS = {
