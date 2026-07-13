@@ -19,46 +19,105 @@
   <meta name="twitter:card" content="summary">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "FinancialService",
-        "@id": "https://retiredrefi.com/#org",
-        "name": "RetiredRefi",
-        "url": "https://retiredrefi.com/",
-        "parentOrganization": { "@type": "Organization", "name": "AdaptLend", "url": "https://adaptlend.com/", "parentOrganization": { "@type": "Organization", "name": "Honest Casa LLC", "url": "https://honestcasa.com/", "identifier": { "@type": "PropertyValue", "name": "NMLS ID", "value": "1566096" } } },
-        "description": "RetiredRefi matches retired homeowners with licensed specialists who close mortgages documented on assets instead of paychecks: asset depletion refinancing, cash-out, home equity options, and honest guidance on HELOC versus reverse mortgage.",
-        "areaServed": "US",
-        "knowsAbout": [
-          "Asset depletion mortgages",
-          "Cash-out refinancing for retirees",
-          "Social Security income gross-up",
-          "HELOC vs reverse mortgage comparison",
-          "DSCR loans for retiree landlords"
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FinancialService",
+      "@id": "https://retiredrefi.com/#org",
+      "name": "RetiredRefi",
+      "url": "https://retiredrefi.com/",
+      "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://adaptlend.com/#org",
+        "name": "AdaptLend",
+        "url": "https://adaptlend.com/"
       },
-      {
-        "@type": "WebSite",
-        "@id": "https://retiredrefi.com/#website",
-        "url": "https://retiredrefi.com/",
-        "name": "RetiredRefi",
-        "publisher": { "@id": "https://retiredrefi.com/#org" }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          { "@type": "Question", "name": "Can I refinance my house if I'm retired with no job?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Asset depletion programs convert your savings and investment balances into qualifying income — typically dividing eligible assets over the loan term — and Social Security, pensions, and regular distributions count as income too. Age can never legally be the reason for a denial." } },
-          { "@type": "Question", "name": "How does asset depletion work?", "acceptedAnswer": { "@type": "Answer", "text": "The lender divides your eligible assets by a set number of months to create qualifying monthly income. For example, $900,000 of eligible assets over a 240-month divisor reads as $3,750 per month — without changing how you actually spend or withdraw." } },
-          { "@type": "Question", "name": "Does Social Security count as mortgage income?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, and because it isn't fully taxed, many lenders count it at up to 125% of the check amount — called grossing up. Pensions, annuities, and regular retirement-account distributions also count." } },
-          { "@type": "Question", "name": "Which is better for a retiree: a HELOC, a cash-out refinance, or a reverse mortgage?", "acceptedAnswer": { "@type": "Answer", "text": "If you can comfortably make monthly payments, a HELOC or cash-out refinance is usually cheaper. If payments would strain a fixed income, or the goal is eliminating your existing mortgage payment, a reverse mortgage with its required HUD counseling deserves a genuine look. The right answer depends on your cash flow, not on which product someone is selling." } },
-          { "@type": "Question", "name": "Will checking my options hurt my credit?", "acceptedAnswer": { "@type": "Answer", "text": "No. The RetiredRefi questions never touch your credit report. A credit check only happens later, if and when you choose to move forward with a licensed specialist." } },
-          { "@type": "Question", "name": "Is it harder to get a mortgage after age 70?", "acceptedAnswer": { "@type": "Answer", "text": "The Equal Credit Opportunity Act prohibits lenders from denying or pricing a loan based on age. What matters is the same at any age: credit, equity, and a documented way to repay — which your assets alone can provide." } }
-        ]
+      "description": "RetiredRefi matches retired homeowners with licensed specialists who close mortgages documented on assets instead of paychecks: asset depletion refinancing, cash-out, home equity options, and honest guidance on HELOC versus reverse mortgage.",
+      "areaServed": "US",
+      "knowsAbout": [
+        "Asset depletion mortgages",
+        "Cash-out refinancing for retirees",
+        "Social Security income gross-up",
+        "HELOC vs reverse mortgage comparison",
+        "DSCR loans for retiree landlords"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "NMLS ID",
+          "value": "1566096"
+        }
+      ],
+      "sameAs": [
+        "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/1566096"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://retiredrefi.com/#website",
+      "url": "https://retiredrefi.com/",
+      "name": "RetiredRefi",
+      "publisher": {
+        "@id": "https://retiredrefi.com/#org"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I refinance my house if I'm retired with no job?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Asset depletion programs convert your savings and investment balances into qualifying income — typically dividing eligible assets over the loan term — and Social Security, pensions, and regular distributions count as income too. Age can never legally be the reason for a denial."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does asset depletion work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The lender divides your eligible assets by a set number of months to create qualifying monthly income. For example, $900,000 of eligible assets over a 240-month divisor reads as $3,750 per month — without changing how you actually spend or withdraw."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Social Security count as mortgage income?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and because it isn't fully taxed, many lenders count it at up to 125% of the check amount — called grossing up. Pensions, annuities, and regular retirement-account distributions also count."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is better for a retiree: a HELOC, a cash-out refinance, or a reverse mortgage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you can comfortably make monthly payments, a HELOC or cash-out refinance is usually cheaper. If payments would strain a fixed income, or the goal is eliminating your existing mortgage payment, a reverse mortgage with its required HUD counseling deserves a genuine look. The right answer depends on your cash flow, not on which product someone is selling."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will checking my options hurt my credit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The RetiredRefi questions never touch your credit report. A credit check only happens later, if and when you choose to move forward with a licensed specialist."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it harder to get a mortgage after age 70?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Equal Credit Opportunity Act prohibits lenders from denying or pricing a loan based on age. What matters is the same at any age: credit, equity, and a documented way to repay — which your assets alone can provide."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
